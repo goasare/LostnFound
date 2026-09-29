@@ -1,0 +1,1054 @@
+[
+  {
+    "public": {
+      "id": "item_0001",
+      "category": "electronics",
+      "item_type": "earbuds",
+      "colors": [
+        "white"
+      ],
+      "brand": "Apple",
+      "description": "White earbuds case with a star sticker",
+      "area": "Woodruff Library",
+      "location_detail": "2nd floor",
+      "found_at": "2026-09-27T14:30:00Z",
+      "image_url": "stubs/images/item_0001.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_137",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0002",
+      "category": "electronics",
+      "item_type": "earbuds",
+      "colors": [
+        "black"
+      ],
+      "brand": "Apple",
+      "description": "Black earbuds case",
+      "area": "Woodruff Library",
+      "location_detail": "1st floor",
+      "found_at": "2026-09-27T14:15:00Z",
+      "image_url": "stubs/images/item_0002.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_174",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0003",
+      "category": "electronics",
+      "item_type": "earbuds",
+      "colors": [
+        "white"
+      ],
+      "brand": "Samsung",
+      "description": "White earbuds case",
+      "area": "Emory Student Center",
+      "location_detail": "Food court",
+      "found_at": "2026-09-27T16:10:00Z",
+      "image_url": "stubs/images/item_0003.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_211",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0004",
+      "category": "electronics",
+      "item_type": "earbuds",
+      "colors": [
+        "white"
+      ],
+      "brand": "Apple",
+      "description": "White earbuds case",
+      "area": "DCT",
+      "location_detail": null,
+      "found_at": "2026-09-26T15:20:00Z",
+      "image_url": "stubs/images/item_0004.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_248",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0005",
+      "category": "electronics",
+      "item_type": "earbuds",
+      "colors": [
+        "blue"
+      ],
+      "brand": "Sony",
+      "description": "Blue earbuds in a small case",
+      "area": "Cox Hall",
+      "location_detail": "Near the entrance",
+      "found_at": "2026-09-25T13:05:00Z",
+      "image_url": "stubs/images/item_0005.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_285",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0006",
+      "category": "electronics",
+      "item_type": "earbuds",
+      "colors": [
+        "white"
+      ],
+      "brand": "Apple",
+      "description": "White earbuds case",
+      "area": "Woodruff Library",
+      "location_detail": "Main floor",
+      "found_at": "2026-09-26T15:40:00Z",
+      "image_url": "stubs/images/item_0006.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_322",
+      "detected_text": "",
+      "status": "resolved"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0007",
+      "category": "electronics",
+      "item_type": "earbuds",
+      "colors": [
+        "white"
+      ],
+      "brand": "Apple",
+      "description": "White earbuds case",
+      "area": "Woodruff Library",
+      "location_detail": "3rd floor",
+      "found_at": "2026-09-20T12:00:00Z",
+      "image_url": "stubs/images/item_0007.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_359",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0008",
+      "category": "electronics",
+      "item_type": "laptop",
+      "colors": [
+        "silver"
+      ],
+      "brand": "Apple",
+      "description": "Silver MacBook laptop",
+      "area": "Woodruff Library",
+      "location_detail": "2nd floor",
+      "found_at": "2026-09-27T15:00:00Z",
+      "image_url": "stubs/images/item_0008.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_396",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0009",
+      "category": "bags",
+      "item_type": "backpack",
+      "colors": [
+        "black"
+      ],
+      "brand": "Jansport",
+      "description": "Black backpack",
+      "area": "Woodruff Library",
+      "location_detail": "Study room",
+      "found_at": "2026-09-28T13:45:00Z",
+      "image_url": "stubs/images/item_0009.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_433",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0010",
+      "category": "bags",
+      "item_type": "backpack",
+      "colors": [
+        "black"
+      ],
+      "brand": "The North Face",
+      "description": "Black backpack with a front zip pocket",
+      "area": "Emory Student Center",
+      "location_detail": "Near the stairs",
+      "found_at": "2026-09-27T13:30:00Z",
+      "image_url": "stubs/images/item_0010.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_470",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0011",
+      "category": "bags",
+      "item_type": "backpack",
+      "colors": [
+        "black"
+      ],
+      "brand": null,
+      "description": "Black backpack",
+      "area": "DCT",
+      "location_detail": "Lobby",
+      "found_at": "2026-09-26T12:25:00Z",
+      "image_url": "stubs/images/item_0011.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_507",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0012",
+      "category": "bags",
+      "item_type": "backpack",
+      "colors": [
+        "black"
+      ],
+      "brand": "Nike",
+      "description": "Black backpack with a white logo",
+      "area": "Cox Hall",
+      "location_detail": null,
+      "found_at": "2026-09-25T14:50:00Z",
+      "image_url": "stubs/images/item_0012.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_544",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0013",
+      "category": "bags",
+      "item_type": "backpack",
+      "colors": [
+        "black"
+      ],
+      "brand": "Patagonia",
+      "description": "Black backpack",
+      "area": "WoodPEC",
+      "location_detail": "Front desk",
+      "found_at": "2026-09-24T17:10:00Z",
+      "image_url": "stubs/images/item_0013.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_581",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0014",
+      "category": "bags",
+      "item_type": "backpack",
+      "colors": [
+        "black"
+      ],
+      "brand": "Herschel",
+      "description": "Black backpack",
+      "area": "The Quad",
+      "location_detail": "Near the benches",
+      "found_at": "2026-09-23T15:00:00Z",
+      "image_url": "stubs/images/item_0014.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_618",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0015",
+      "category": "bags",
+      "item_type": "backpack",
+      "colors": [
+        "black"
+      ],
+      "brand": "Osprey",
+      "description": "Black hiking backpack",
+      "area": "Goizueta Business School",
+      "location_detail": "Lobby",
+      "found_at": "2026-09-22T14:20:00Z",
+      "image_url": "stubs/images/item_0015.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_655",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0016",
+      "category": "bags",
+      "item_type": "backpack",
+      "colors": [
+        "black"
+      ],
+      "brand": "Under Armour",
+      "description": "Black backpack",
+      "area": "Parking decks",
+      "location_detail": "Level 2",
+      "found_at": "2026-09-21T16:45:00Z",
+      "image_url": "stubs/images/item_0016.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_692",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0017",
+      "category": "water_bottles_and_drinkware",
+      "item_type": "water_bottle",
+      "colors": [
+        "black"
+      ],
+      "brand": "Hydro Flask",
+      "description": "Black insulated water bottle",
+      "area": "Woodruff Library",
+      "location_detail": "1st floor",
+      "found_at": "2026-09-28T15:35:00Z",
+      "image_url": "stubs/images/item_0017.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_729",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0018",
+      "category": "water_bottles_and_drinkware",
+      "item_type": "water_bottle",
+      "colors": [
+        "black"
+      ],
+      "brand": "Stanley",
+      "description": "Black insulated water bottle with a handle",
+      "area": "Emory Student Center",
+      "location_detail": "Table near the windows",
+      "found_at": "2026-09-27T12:40:00Z",
+      "image_url": "stubs/images/item_0018.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_766",
+      "detected_text": "M. OKAFOR",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0019",
+      "category": "water_bottles_and_drinkware",
+      "item_type": "water_bottle",
+      "colors": [
+        "black"
+      ],
+      "brand": null,
+      "description": "Black plastic water bottle",
+      "area": "WoodPEC",
+      "location_detail": "Locker room",
+      "found_at": "2026-09-26T18:00:00Z",
+      "image_url": "stubs/images/item_0019.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_803",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0020",
+      "category": "water_bottles_and_drinkware",
+      "item_type": "water_bottle",
+      "colors": [
+        "blue"
+      ],
+      "brand": "Nalgene",
+      "description": "Blue water bottle with stickers",
+      "area": "DCT",
+      "location_detail": "Second floor",
+      "found_at": "2026-09-25T14:50:00Z",
+      "image_url": "stubs/images/item_0020.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_840",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0021",
+      "category": "clothing",
+      "item_type": "jacket",
+      "colors": [
+        "black"
+      ],
+      "brand": "The North Face",
+      "description": "Black zip-up jacket",
+      "area": "Woodruff Library",
+      "location_detail": "Coat rack",
+      "found_at": "2026-09-28T13:15:00Z",
+      "image_url": "stubs/images/item_0021.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_877",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0022",
+      "category": "clothing",
+      "item_type": "jacket",
+      "colors": [
+        "black"
+      ],
+      "brand": "Patagonia",
+      "description": "Black fleece jacket",
+      "area": "Cox Hall",
+      "location_detail": "Table by the windows",
+      "found_at": "2026-09-26T14:05:00Z",
+      "image_url": "stubs/images/item_0022.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_914",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0023",
+      "category": "clothing",
+      "item_type": "jacket",
+      "colors": [
+        "black"
+      ],
+      "brand": null,
+      "description": "Black rain jacket",
+      "area": "The Quad",
+      "location_detail": null,
+      "found_at": "2026-09-24T15:30:00Z",
+      "image_url": "stubs/images/item_0023.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_951",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0024",
+      "category": "electronics",
+      "item_type": "phone",
+      "colors": [
+        "black"
+      ],
+      "brand": "Apple",
+      "description": "Black phone in a clear case",
+      "area": "Rollins School of Public Health",
+      "location_detail": "Cafe",
+      "found_at": "2026-09-28T12:10:00Z",
+      "image_url": "stubs/images/item_0024.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_988",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0025",
+      "category": "electronics",
+      "item_type": "phone",
+      "colors": [
+        "blue"
+      ],
+      "brand": "Samsung",
+      "description": "Blue phone with a cracked screen",
+      "area": "Emory Student Center",
+      "location_detail": "Near the stairs",
+      "found_at": "2026-09-25T16:20:00Z",
+      "image_url": "stubs/images/item_0025.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_125",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0026",
+      "category": "electronics",
+      "item_type": "charger",
+      "colors": [
+        "white"
+      ],
+      "brand": "Apple",
+      "description": "White charging cable and power adapter",
+      "area": "Science buildings (MSC, Atwood, PAIS)",
+      "location_detail": "Room off the hallway",
+      "found_at": "2026-09-27T15:45:00Z",
+      "image_url": "stubs/images/item_0026.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_162",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0027",
+      "category": "electronics",
+      "item_type": "tablet",
+      "colors": [
+        "silver"
+      ],
+      "brand": "Apple",
+      "description": "Silver tablet with a black cover",
+      "area": "Humanities buildings (Callaway, White Hall, Candler Library)",
+      "location_detail": "Classroom",
+      "found_at": "2026-09-26T14:30:00Z",
+      "image_url": "stubs/images/item_0027.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_199",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0028",
+      "category": "electronics",
+      "item_type": "calculator",
+      "colors": [
+        "black"
+      ],
+      "brand": "Texas Instruments",
+      "description": "Black graphing calculator",
+      "area": "Science buildings (MSC, Atwood, PAIS)",
+      "location_detail": "Lecture hall",
+      "found_at": "2026-09-25T13:20:00Z",
+      "image_url": "stubs/images/item_0028.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_236",
+      "detected_text": "K. LEE",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0029",
+      "category": "accessories",
+      "item_type": "watch",
+      "colors": [
+        "black"
+      ],
+      "brand": "Garmin",
+      "description": "Black sports watch",
+      "area": "WoodPEC",
+      "location_detail": "Cardio area",
+      "found_at": "2026-09-27T17:25:00Z",
+      "image_url": "stubs/images/item_0029.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_273",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0030",
+      "category": "electronics",
+      "item_type": "headphones",
+      "colors": [
+        "black"
+      ],
+      "brand": "Sony",
+      "description": "Black over-ear headphones",
+      "area": "Woodruff Library",
+      "location_detail": "3rd floor",
+      "found_at": "2026-09-26T13:50:00Z",
+      "image_url": "stubs/images/item_0030.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_310",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0031",
+      "category": "electronics",
+      "item_type": "headphones",
+      "colors": [
+        "white"
+      ],
+      "brand": "Bose",
+      "description": "White over-ear headphones in a case",
+      "area": "DCT",
+      "location_detail": "Near the entrance",
+      "found_at": "2026-09-24T14:40:00Z",
+      "image_url": "stubs/images/item_0031.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_347",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0032",
+      "category": "accessories",
+      "item_type": "keys",
+      "colors": [
+        "silver"
+      ],
+      "brand": null,
+      "description": "Set of keys on a ring with a red tag",
+      "area": "Residence halls (Raoul, Hamilton, Turman, Dobbs, Alabama, Clifton Towers, Woodies, Complex, Harris Hall)",
+      "location_detail": "Lobby",
+      "found_at": "2026-09-28T12:55:00Z",
+      "image_url": "stubs/images/item_0032.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_384",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0033",
+      "category": "cards_and_id",
+      "item_type": "id_card",
+      "colors": [
+        "white"
+      ],
+      "brand": null,
+      "description": "Student ID card",
+      "area": "Emory Student Center",
+      "location_detail": "Front desk",
+      "found_at": "2026-09-27T14:05:00Z",
+      "image_url": "stubs/images/item_0033.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_421",
+      "detected_text": "A. PATEL",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0034",
+      "category": "cards_and_id",
+      "item_type": "id_card",
+      "colors": [
+        "blue"
+      ],
+      "brand": null,
+      "description": "Student ID card in a plastic holder",
+      "area": "Goizueta Business School",
+      "location_detail": "Hallway",
+      "found_at": "2026-09-23T12:35:00Z",
+      "image_url": "stubs/images/item_0034.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_458",
+      "detected_text": "J. NGUYEN",
+      "status": "resolved"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0035",
+      "category": "books_and_stationery",
+      "item_type": "notebook",
+      "colors": [
+        "red"
+      ],
+      "brand": null,
+      "description": "Red spiral notebook",
+      "area": "Humanities buildings (Callaway, White Hall, Candler Library)",
+      "location_detail": "Classroom",
+      "found_at": "2026-09-26T15:15:00Z",
+      "image_url": "stubs/images/item_0035.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_495",
+      "detected_text": "D. ROMERO",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0036",
+      "category": "books_and_stationery",
+      "item_type": "textbook",
+      "colors": [
+        "blue"
+      ],
+      "brand": null,
+      "description": "Large blue textbook",
+      "area": "Rollins School of Public Health",
+      "location_detail": "Study room",
+      "found_at": "2026-09-24T15:15:00Z",
+      "image_url": "stubs/images/item_0036.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_532",
+      "detected_text": "S. KIM",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0037",
+      "category": "accessories",
+      "item_type": "umbrella",
+      "colors": [
+        "black"
+      ],
+      "brand": null,
+      "description": "Black folding umbrella",
+      "area": "McDonough Field",
+      "location_detail": null,
+      "found_at": "2026-09-22T13:40:00Z",
+      "image_url": "stubs/images/item_0037.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_569",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0038",
+      "category": "accessories",
+      "item_type": "glasses",
+      "colors": [
+        "black"
+      ],
+      "brand": null,
+      "description": "Black-framed glasses in a case",
+      "area": "Woodruff Library",
+      "location_detail": "Circulation desk",
+      "found_at": "2026-09-28T16:00:00Z",
+      "image_url": "stubs/images/item_0038.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_606",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0039",
+      "category": "accessories",
+      "item_type": "sunglasses",
+      "colors": [
+        "brown"
+      ],
+      "brand": "Ray-Ban",
+      "description": "Brown sunglasses",
+      "area": "The Quad",
+      "location_detail": "Near the benches",
+      "found_at": "2026-09-21T14:20:00Z",
+      "image_url": "stubs/images/item_0039.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_643",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0040",
+      "category": "clothing",
+      "item_type": "hat",
+      "colors": [
+        "gray"
+      ],
+      "brand": "Nike",
+      "description": "Gray baseball cap",
+      "area": "McDonough Field",
+      "location_detail": null,
+      "found_at": "2026-09-23T15:50:00Z",
+      "image_url": "stubs/images/item_0040.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_680",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0041",
+      "category": "clothing",
+      "item_type": "scarf",
+      "colors": [
+        "gray"
+      ],
+      "brand": null,
+      "description": "Gray knit scarf",
+      "area": "Cliff Shuttle / Asbury Circle",
+      "location_detail": "Bus stop",
+      "found_at": "2026-09-22T12:40:00Z",
+      "image_url": "stubs/images/item_0041.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_717",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0042",
+      "category": "clothing",
+      "item_type": "gloves",
+      "colors": [
+        "black"
+      ],
+      "brand": null,
+      "description": "Pair of black gloves",
+      "area": "Cliff Shuttle / Asbury Circle",
+      "location_detail": "Bus stop",
+      "found_at": "2026-09-21T13:10:00Z",
+      "image_url": "stubs/images/item_0042.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_754",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0043",
+      "category": "clothing",
+      "item_type": "sweater_or_hoodie",
+      "colors": [
+        "gray"
+      ],
+      "brand": "Champion",
+      "description": "Gray hooded sweatshirt",
+      "area": "WoodPEC",
+      "location_detail": "Bench",
+      "found_at": "2026-09-25T19:00:00Z",
+      "image_url": "stubs/images/item_0043.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_791",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0044",
+      "category": "clothing",
+      "item_type": "sweater_or_hoodie",
+      "colors": [
+        "red"
+      ],
+      "brand": null,
+      "description": "Red crewneck sweater",
+      "area": "Cox Hall",
+      "location_detail": "Table in the seating area",
+      "found_at": "2026-09-24T12:55:00Z",
+      "image_url": "stubs/images/item_0044.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_828",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0045",
+      "category": "bags",
+      "item_type": "tote_bag",
+      "colors": [
+        "beige"
+      ],
+      "brand": null,
+      "description": "Beige canvas tote bag",
+      "area": "DCT",
+      "location_detail": "Second floor",
+      "found_at": "2026-09-26T16:30:00Z",
+      "image_url": "stubs/images/item_0045.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_865",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0046",
+      "category": "bags",
+      "item_type": "purse_or_wallet",
+      "colors": [
+        "brown"
+      ],
+      "brand": "Coach",
+      "description": "Brown leather wallet",
+      "area": "Emory Student Center",
+      "location_detail": "Food court",
+      "found_at": "2026-09-22T12:20:00Z",
+      "image_url": "stubs/images/item_0046.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_902",
+      "detected_text": "T. BROWN",
+      "status": "resolved"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0047",
+      "category": "accessories",
+      "item_type": "jewelry",
+      "colors": [
+        "gold"
+      ],
+      "brand": null,
+      "description": "Thin gold chain necklace",
+      "area": "Residence halls (Raoul, Hamilton, Turman, Dobbs, Alabama, Clifton Towers, Woodies, Complex, Harris Hall)",
+      "location_detail": "Common room",
+      "found_at": "2026-09-27T18:15:00Z",
+      "image_url": "stubs/images/item_0047.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_939",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0048",
+      "category": "other",
+      "item_type": "other",
+      "colors": [
+        "yellow",
+        "multicolor"
+      ],
+      "brand": null,
+      "description": "Small stuffed toy on a keychain",
+      "area": "Other / not sure",
+      "location_detail": null,
+      "found_at": "2026-09-28T14:00:00Z",
+      "image_url": "stubs/images/item_0048.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_976",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0049",
+      "category": "other",
+      "item_type": "other",
+      "colors": [
+        "green"
+      ],
+      "brand": null,
+      "description": "Green yoga mat",
+      "area": "WoodPEC",
+      "location_detail": "Studio entrance",
+      "found_at": "2026-09-24T20:00:00Z",
+      "image_url": "stubs/images/item_0049.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_113",
+      "detected_text": "",
+      "status": "available"
+    }
+  },
+  {
+    "public": {
+      "id": "item_0050",
+      "category": "accessories",
+      "item_type": "keys",
+      "colors": [
+        "black",
+        "silver"
+      ],
+      "brand": null,
+      "description": "Car key fob on a lanyard",
+      "area": "Parking decks",
+      "location_detail": "Level 3",
+      "found_at": "2026-09-23T17:40:00Z",
+      "image_url": "stubs/images/item_0050.jpg"
+    },
+    "server_only": {
+      "finder_id": "user_150",
+      "detected_text": "",
+      "status": "available"
+    }
+  }
+]
