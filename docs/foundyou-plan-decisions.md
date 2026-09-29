@@ -104,7 +104,7 @@
 2. `search_items` returns up to 5 summaries.
 3. If too many results or several are close, the assistant **asks open questions** so the user supplies the distinguishing details, or it sharpens the search using details already given.
    - Rule: **never mention a candidate detail the user hasn't already said.**
-   - ✅ "Is there anything that would make yours stand out, like marks, damage, a case, or anything attached?"
+   - ✅ "Is there anything that would make yours stand out, like marks, damage, or anything attached?"
    - ❌ "Did yours have a sticker on the case?"
    - Wording for v1 is agreed (see "Question wording (v1)" below). G revisits it after testing.
 4. Once it believes it has the **best match**, or up to 3 close candidates, it calls `get_item` for each, and the widgets appear.
@@ -112,18 +112,22 @@
 ### Question wording (v1)
 Draft wording for the system prompt. G tests v1 and adjusts.
 - **Tone:** neutral for now. G decides the tone after testing v1.
-- **Rules:** open questions only, one at a time; never mention a candidate detail the user hasn't said; never say "this is yours"; stop at 3 or fewer candidates, one clear best match, or about 4 questions.
+- **Rules:** open questions only, one at a time; never mention a candidate detail the user hasn't said; never say "this is yours"; stop at one clear best match, at 3 or fewer candidates once at least one open question has been asked, or after about 4 questions.
 - **Do not mention how many results there are.** Revisit after testing.
+- **Time rule:** the time goes into `lost_after` / `lost_before`, never `keywords`. Keywords are item details only (marks, damage, things attached). Set `lost_after` to the start of the day or period the user mentions, not the exact time. The server adds today's date to the prompt each turn, so the model can resolve "yesterday" or "Sunday".
+- **Reply rule:** plain text only. No links, URLs, images or item ids in a reply. Use the agreed wording exactly.
+- **Finder rule:** if the user says they found something, say: "This chat is for people looking for a lost item. If you found something, please use the Found something option." Do not describe any other feature or button. The only button the assistant may mention is the Message button on a match.
 - **Intake:**
   - What: "What did you lose?"
   - Where: "Roughly where do you think you lost it?" If skipped: "Even a general area helps, like a building or part of campus."
   - When: "About when was that? A rough day or time is fine."
 - **Narrowing:**
-  - "Is there anything that would make yours stand out, like marks, damage, a case, or anything attached?"
+  - "Is there anything that would make yours stand out, like marks, damage, or anything attached?"
   - "Can you tell me a bit more about it, like the color, brand, or size?" (kept for now; change it if testing shows a problem)
   - "Anything else you remember about it?"
   - "Where were you when you last had it?"
 - **Too many results:** "Can you tell me more about yours?" (no count, no candidate details)
+- **2-3 close candidates, no narrowing question asked yet:** ask "Is there anything that would make yours stand out, like marks, damage, or anything attached?" before showing anything.
 - **Best match:** "This could be a match. Take a look, and you can message the finder to check."
 - **Several close after the stop rule:** show them equally, without calling one "the" answer. If more than 3 candidates remain after about 4 questions, show the top 3 by ranking, shown equally, using the plural line.
 - **No results:** "I don't see anything that fits yet. Items get added as people find them, so it's worth checking back." Do not promise a notification.
