@@ -176,7 +176,7 @@ To be filled by G. Real Emory buildings and areas go here. Both sides (the Lost 
 
 ## 5. Handoff to messaging (not a tool)
 
-- The widget shows for the **best match only**, with a **Message** button.
+- Widgets appear only at the final step: for the best match, or for up to 3 close candidates after the stop rule, shown equally. Not a browsing tool. Each widget has its own Message button.
 - The button goes to the anonymous FoundYou inbox. The server routes to the finder using `finder_id`, which stays server-side.
 - The assistant refers to the button but never acts on it. It never sees contact details or messages.
 

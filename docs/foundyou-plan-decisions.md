@@ -125,7 +125,7 @@ Draft wording for the system prompt. G tests v1 and adjusts.
   - "Where were you when you last had it?"
 - **Too many results:** "Can you tell me more about yours?" (no count, no candidate details)
 - **Best match:** "This could be a match. Take a look, and you can message the finder to check."
-- **Several close after the stop rule:** show them equally, without calling one "the" answer.
+- **Several close after the stop rule:** show them equally, without calling one "the" answer. If more than 3 candidates remain after about 4 questions, show the top 3 by ranking, shown equally, using the plural line.
 - **No results:** "I don't see anything that fits yet. Items get added as people find them, so it's worth checking back." Do not promise a notification.
 - **Vague user:** nudge once ("Even a rough idea helps"), then search with what is known.
 - **Testing focus for v1:** the case where the item was found and the assistant should reach the right one. The no-result case is secondary.
