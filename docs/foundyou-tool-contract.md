@@ -40,7 +40,7 @@ The assistant turns the user's "where/when" into `area` plus a time window. Sear
 
 ### Output
 
-- Up to **5** summaries. Each has: `id`, type, color, area, date.
+- Up to **5** summaries. Each has: `id`, `item_type`, `colors`, `area`, `date`.
 - No image and no full details.
 - Only items with `status` = `available` are returned, so resolved items drop out of search.
 
