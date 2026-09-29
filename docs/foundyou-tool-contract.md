@@ -168,9 +168,23 @@ DRAFT: not agreed with teammate.
 
 ### Campus locations (`area`)
 
-To be filled by G. Real Emory buildings and areas go here. Both sides (the Lost flow and the Found flow) must use the same list.
+Provided by G. Teammate to confirm for the Found flow. Both sides (the Lost flow and the Found flow) must use the same list.
 
-- (empty)
+- Woodruff Library
+- Emory Student Center
+- DCT
+- Cox Hall
+- WoodPEC
+- Science buildings (MSC, Atwood, PAIS)
+- Humanities buildings (Callaway, White Hall, Candler Library)
+- Goizueta Business School
+- Rollins School of Public Health
+- Residence halls (Raoul, Hamilton, Turman, Dobbs, Alabama, Clifton Towers, Woodies, Complex, Harris Hall)
+- The Quad
+- McDonough Field
+- Cliff Shuttle / Asbury Circle
+- Parking decks
+- Other / not sure
 
 ---
 
@@ -189,7 +203,9 @@ To be filled by G. Real Emory buildings and areas go here. Both sides (the Lost 
 3. Who marks an item `resolved`: the finder, or the person who lost the item?
 4. Tool names: `search_items` / `get_item`, or the memo's `search_lost_items` / `get_lost_item`?
 5. What does the Message button call, and what does it pass?
-6. G will provide the campus locations list (real Emory buildings and areas). Please confirm it works for the Found flow, since both sides must use the same list.
+6. Please confirm the locations list works for the Found flow.
+7. Should search treat neighbouring areas (for example DCT and Emory Student Center) as close matches for ranking?
+8. Does `search_items` return results in ranking order? The prompt relies on it.
 
 ---
 
