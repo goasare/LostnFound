@@ -1,0 +1,14 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #172c36;
+  background: #f6f8f9;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+.site-header { padding: 24px clamp(24px, 6vw, 80px); background: white; }
+.brand { color: inherit; font-size: 20px; font-weight: 700; text-decoration: none; }
+.hero { max-width: 900px; margin: 0 auto; padding: 100px 24px; }
+.eyebrow { color: #287267; font-weight: 600; }
+h1 { margin: 16px 0; font-size: clamp(36px, 6vw, 64px); line-height: 1.1; }
+.hero > p:last-child { color: #52656e; font-size: 20px; line-height: 1.6; }
