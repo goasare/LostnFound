@@ -25,34 +25,16 @@ type Message = {
   items?: FoundItem[];
 };
 
-// Placeholder conversation from the design. Replace with the agent's replies
-// once the chat is connected to the backend (/api/chat).
-const sampleMessages: Message[] = [
-  { role: "assistant", text: "Hi! I'm here to help find your bookbag. Can you tell me what color it is?" },
-  { role: "user", text: "It's black with a small keychain on the front pocket." },
-  { role: "assistant", text: "Got it — a black bookbag with a distinctive keychain. Where did you last have it?" },
-  { role: "user", text: "Near the library, maybe two days ago." },
-  {
-    role: "assistant",
-    text: "Thanks! I scanned recent found-item reports near the Library from the last few days — here's what looks promising:",
-    items: [
-      {
-        id: "item_sample",
-        item_type: "backpack",
-        colors: ["black"],
-        area: "Library",
-        found_at: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
-      },
-    ],
-  },
-];
-
-// Placeholder summary from the design. Fill this from the chosen category
-// and the details the agent collects.
-const reportSummary = {
+// Placeholder summary. Fill category from the category page, and color and
+// location from the details the agent collects during the chat.
+const reportSummary: {
+  category: string;
+  color: { label: string; swatch: string } | null;
+  location: string | null;
+} = {
   category: "Bookbag",
-  color: { label: "Black", swatch: "#12141a" },
-  location: "Near Library",
+  color: null,
+  location: null,
 };
 
 function capitalize(text: string) {
@@ -67,7 +49,7 @@ function daysAgo(isoDate: string) {
 }
 
 export default function AgentPage() {
-  const [messages, setMessages] = useState<Message[]>(sampleMessages);
+  const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const endRef = useRef<HTMLDivElement>(null);
 
@@ -125,12 +107,14 @@ export default function AgentPage() {
 
             <div className="agent-summary-row">
               <span
-                className="agent-color-swatch"
-                style={{ background: reportSummary.color.swatch }}
+                className={`agent-color-swatch ${reportSummary.color ? "" : "empty"}`}
+                style={reportSummary.color ? { background: reportSummary.color.swatch } : undefined}
                 aria-hidden="true"
               />
               <div>
-                <div className="agent-summary-value">{reportSummary.color.label}</div>
+                <div className={`agent-summary-value ${reportSummary.color ? "" : "empty"}`}>
+                  {reportSummary.color?.label ?? "Not yet known"}
+                </div>
                 <div className="agent-summary-label">Color — from chat</div>
               </div>
             </div>
@@ -140,7 +124,9 @@ export default function AgentPage() {
                 <MapPin size={18} strokeWidth={1.5} aria-hidden="true" />
               </span>
               <div>
-                <div className="agent-summary-value">{reportSummary.location}</div>
+                <div className={`agent-summary-value ${reportSummary.location ? "" : "empty"}`}>
+                  {reportSummary.location ?? "Not yet known"}
+                </div>
                 <div className="agent-summary-label">Location — from chat</div>
               </div>
             </div>
@@ -170,6 +156,12 @@ export default function AgentPage() {
           </div>
 
           <div className="agent-messages" aria-live="polite">
+            {messages.length === 0 && (
+              <p className="agent-empty-state">
+                Describe what you lost — color, any unique details, and where
+                you last had it — and the agent will search campus reports.
+              </p>
+            )}
             {messages.map((message, index) => (
               <div key={index} className={`agent-message ${message.role}`}>
                 {message.role === "assistant" && (
